@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí - Mi Página Web Personal</title>
+
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO PRINCIPAL -->
+    <header>
+        <h1 class="titulo-principal">¡Bienvenidos a Mi Página Web Personal!</h1>
+        <p class="frase-bienvenida">Aquí encontrarás información sobre mí, mis intereses, mis actividades y cómo contactarme.</p>
+    </header>
+
+    <!-- PRESENTACIÓN PERSONAL -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hola, mi nombre es <strong>Nombre del Estudiante</strong>. Esta es mi página web personal creada como parte del Laboratorio de HTML y CSS. Aquí comparto un poco sobre quién soy, mis pasatiempos, mis actividades y mi información de contacto.</p>
+
+        <h3>Mi foto</h3>
+        <img src="mi_foto.jpg" alt="Mi fotografía personal" class="foto-perfil">
+
+        <h3>Mis redes sociales</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/KEINYSVANELYS18" target="_blank">Mi Facebook</a></li>
+            <li><a href="https://www.instagram.com/@KV_CASTROG" target="_blank">Mi Instagram</a></li>
+            <li><a href="https://www.linkedin.com/KEINYS_VANELYS" target="_blank">Mi LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <!-- LISTAS: PASATIEMPOS Y TAREAS -->
+    <section id="listas">
+        <h2>Mis pasatiempos</h2>
+        <ul>
+            <li>Leer sobre tecnología</li>
+            <li>Escuchar música</li>
+            <li>Hacer ejercicio</li>
+        </ul>
+
+        <h2>Tareas pendientes (orden de prioridad)</h2>
+        <ol>
+            <li>Estudiar para el examen</li>
+            <li>Completar actividades de la universidad</li>
+            <li>Organizar mi habitación</li>
+        </ol>
+    </section>
+
+    <!-- TABLA DE HORARIOS -->
+    <section id="horarios">
+        <h2>Mi horario semanal</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Actividad / Día</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Estudiar para el examen</td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Actividades de la universidad</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Organizar habitación</td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto">
+        <h2>Formulario de contacto</h2>
+
+        <form action="#" method="POST">
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+            <label for="motivo">Motivo del contacto:</label>
+            <input type="text" id="motivo" name="motivo" placeholder="¿Por qué deseas contactarme?" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
