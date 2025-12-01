@@ -1,26 +1,50 @@
-Este repositorio contiene mi primera página web desarrollada para el laboratorio del curso, utilizando *HTML y CSS*.  
-Aquí practico estructura básica, imágenes, listas, tablas, formulario y estilos personalizados.
+# 🌐 Mi Página Web Personal – Laboratorios HTML y CSS
 
-## Contenido del proyecto
+Este proyecto corresponde a los *Laboratorios de Desarrollo Web, donde construí una página web básica utilizando **HTML* y *CSS*, y aprendí a utilizar Git y GitHub para el control de versiones.
 
-- *index.html* – Documento principal de la página web.
-- *styles.css* – Archivo de estilos para la página.
-- *mi_foto.jpeg* – Imagen personal utilizada en la web.
-- *README.md* – Descripción del repositorio.
+---
 
-## Objetivos cumplidos
+## 📄 Contenido del Proyecto
 
-✔ Crear una página web con estructura HTML completa  
-✔ Agregar imágenes y enlaces  
-✔ Construir listas ordenadas y desordenadas  
-✔ Crear tabla de horarios  
-✔ Implementar un formulario de contacto  
-✔ Aplicar estilos con CSS  
-✔ Subir el proyecto al repositorio usando GitHub
+### ✔ *index.html*
+Contiene toda la estructura de mi página:
+- Encabezados
+- Párrafos de presentación
+- Mi foto personal
+- Enlaces a redes sociales
+- Listas (ordenadas y desordenadas)
+- Tabla de horarios
+- Formulario de contacto
 
-## Vista previa
+---
 
-Puedes ver los archivos directamente desde esta página del repositorio.
+### ✔ *styles.css*
+Archivo con los estilos aplicados a la página:
+- Colores
+- Tipografías
+- Bordes
+- Fondos
+- Alineaciones
 
-## Autora
+---
+
+### ✔ *mi_foto.jpeg*
+Imagen utilizada en la sección de presentación.
+
+---
+
+## 🎯 Objetivo del Proyecto
+- Conocer la estructura básica de HTML  
+- Aprender a aplicar estilos con CSS  
+- Usar Git y GitHub para versionar proyectos  
+- Publicar y organizar archivos en un repositorio  
+
+---
+
+## 👩🏻‍💻 Autora
 *Keinys Vanelys*
+
+
+---
+
+¡Gracias por visitar mi repositorio! 😊
